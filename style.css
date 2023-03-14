@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 body {
@@ -20,4 +22,22 @@ body {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.quote-box h2 {
+    position: relative;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.quote-box h2::after {
+    content: '';
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: #177ce5;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
 }
