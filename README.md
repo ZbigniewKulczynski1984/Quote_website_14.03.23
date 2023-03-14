@@ -1,4 +1,4 @@
-# Quote_wesite
+# Quote_website
 
 ## HTML
 ## CSS
