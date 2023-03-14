@@ -1,1 +1,5 @@
-# Quote_wesite_14.03.23
+# Quote_wesite
+
+## HTML
+## CSS
+## JavaScript
